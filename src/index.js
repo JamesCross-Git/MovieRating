@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
+import MovieList from './components/MovieList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MovieList />
   </React.StrictMode>,
   document.getElementById('root')
 );
